@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* DistillIdeasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100001 /* DistillIdeasApp.swift */; };
+		AA000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100002 /* ContentView.swift */; };
+		AA000003 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100003 /* Idea.swift */; };
+		AA000004 /* IdeaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100004 /* IdeaCard.swift */; };
+		AA000005 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100005 /* Collection.swift */; };
+		AA000006 /* ReadingStreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100006 /* ReadingStreak.swift */; };
+		AA000007 /* SpacedRepetitionSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100007 /* SpacedRepetitionSchedule.swift */; };
+		AA000008 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100008 /* StoreKitManager.swift */; };
+		AA000009 /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100009 /* ContentService.swift */; };
+		AA000010 /* SpacedRepetitionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100010 /* SpacedRepetitionEngine.swift */; };
+		AA000011 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100011 /* NotificationManager.swift */; };
+		AA000012 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100012 /* AnalyticsService.swift */; };
+		AA000013 /* ATTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100013 /* ATTService.swift */; };
+		AA000014 /* PremiumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100014 /* PremiumManager.swift */; };
+		AA000015 /* ReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100015 /* ReviewManager.swift */; };
+		AA000016 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100016 /* FeedViewModel.swift */; };
+		AA000017 /* LibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100017 /* LibraryViewModel.swift */; };
+		AA000018 /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100018 /* ReviewViewModel.swift */; };
+		AA000019 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100019 /* HomeView.swift */; };
+		AA000020 /* IdeaFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100020 /* IdeaFeedView.swift */; };
+		AA000021 /* IdeaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100021 /* IdeaCardView.swift */; };
+		AA000022 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100022 /* LibraryView.swift */; };
+		AA000023 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100023 /* ReviewView.swift */; };
+		AA000024 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100024 /* CollectionView.swift */; };
+		AA000025 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100025 /* PaywallView.swift */; };
+		AA000026 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100026 /* OnboardingView.swift */; };
+		AA000027 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100027 /* SettingsView.swift */; };
+		AA000028 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100028 /* ProfileView.swift */; };
+		AA000029 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100029 /* Color+Hex.swift */; };
+		AA000030 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA100030 /* Info.plist */; };
+		AA000031 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA100031 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA100001 /* DistillIdeasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistillIdeasApp.swift; sourceTree = "<group>"; };
+		AA100002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA100003 /* Idea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
+		AA100004 /* IdeaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCard.swift; sourceTree = "<group>"; };
+		AA100005 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		AA100006 /* ReadingStreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingStreak.swift; sourceTree = "<group>"; };
+		AA100007 /* SpacedRepetitionSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacedRepetitionSchedule.swift; sourceTree = "<group>"; };
+		AA100008 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		AA100009 /* ContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
+		AA100010 /* SpacedRepetitionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacedRepetitionEngine.swift; sourceTree = "<group>"; };
+		AA100011 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		AA100012 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		AA100013 /* ATTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTService.swift; sourceTree = "<group>"; };
+		AA100014 /* PremiumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumManager.swift; sourceTree = "<group>"; };
+		AA100015 /* ReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewManager.swift; sourceTree = "<group>"; };
+		AA100016 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		AA100017 /* LibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewModel.swift; sourceTree = "<group>"; };
+		AA100018 /* ReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
+		AA100019 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AA100020 /* IdeaFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaFeedView.swift; sourceTree = "<group>"; };
+		AA100021 /* IdeaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCardView.swift; sourceTree = "<group>"; };
+		AA100022 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		AA100023 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		AA100024 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		AA100025 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		AA100026 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AA100027 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA100028 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AA100029 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		AA100030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA100031 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA100032 /* DistillIdeas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DistillIdeas.entitlements; sourceTree = "<group>"; };
+		AAPROD001 /* DistillIdeas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistillIdeas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABUILD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAGROUP00 /* = */ = {
+			isa = PBXGroup;
+			children = (
+				AAGROUP01 /* DistillIdeas */,
+				AAGROUP99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAGROUP99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAPROD001 /* DistillIdeas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAGROUP01 /* DistillIdeas */ = {
+			isa = PBXGroup;
+			children = (
+				AA100001 /* DistillIdeasApp.swift */,
+				AA100002 /* ContentView.swift */,
+				AA100030 /* Info.plist */,
+				AA100031 /* GoogleService-Info.plist */,
+				AA100032 /* DistillIdeas.entitlements */,
+				AAGROUP02 /* Models */,
+				AAGROUP03 /* Services */,
+				AAGROUP04 /* ViewModels */,
+				AAGROUP05 /* Views */,
+				AAGROUP06 /* Resources */,
+			);
+			path = DistillIdeas;
+			sourceTree = "<group>";
+		};
+		AAGROUP02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA100003 /* Idea.swift */,
+				AA100004 /* IdeaCard.swift */,
+				AA100005 /* Collection.swift */,
+				AA100006 /* ReadingStreak.swift */,
+				AA100007 /* SpacedRepetitionSchedule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAGROUP03 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA100008 /* StoreKitManager.swift */,
+				AA100009 /* ContentService.swift */,
+				AA100010 /* SpacedRepetitionEngine.swift */,
+				AA100011 /* NotificationManager.swift */,
+				AA100012 /* AnalyticsService.swift */,
+				AA100013 /* ATTService.swift */,
+				AA100014 /* PremiumManager.swift */,
+				AA100015 /* ReviewManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AAGROUP04 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA100016 /* FeedViewModel.swift */,
+				AA100017 /* LibraryViewModel.swift */,
+				AA100018 /* ReviewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AAGROUP05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA100019 /* HomeView.swift */,
+				AA100020 /* IdeaFeedView.swift */,
+				AA100021 /* IdeaCardView.swift */,
+				AA100022 /* LibraryView.swift */,
+				AA100023 /* ReviewView.swift */,
+				AA100024 /* CollectionView.swift */,
+				AA100025 /* PaywallView.swift */,
+				AA100026 /* OnboardingView.swift */,
+				AA100027 /* SettingsView.swift */,
+				AA100028 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AAGROUP06 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA100029 /* Color+Hex.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AATARGET1 /* DistillIdeas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACFGLIST1 /* Build configuration list for PBXNativeTarget "DistillIdeas" */;
+			buildPhases = (
+				AABUILD00 /* Sources */,
+				AABUILD01 /* Frameworks */,
+				AABUILD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistillIdeas;
+			productName = DistillIdeas;
+			productReference = AAPROD001 /* DistillIdeas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAPROJECT /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AATARGET1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AACFGLIST0 /* Build configuration list for PBXProject "DistillIdeas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAGROUP00;
+			productRefGroup = AAGROUP99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AATARGET1 /* DistillIdeas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABUILD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000031 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABUILD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* DistillIdeasApp.swift in Sources */,
+				AA000002 /* ContentView.swift in Sources */,
+				AA000003 /* Idea.swift in Sources */,
+				AA000004 /* IdeaCard.swift in Sources */,
+				AA000005 /* Collection.swift in Sources */,
+				AA000006 /* ReadingStreak.swift in Sources */,
+				AA000007 /* SpacedRepetitionSchedule.swift in Sources */,
+				AA000008 /* StoreKitManager.swift in Sources */,
+				AA000009 /* ContentService.swift in Sources */,
+				AA000010 /* SpacedRepetitionEngine.swift in Sources */,
+				AA000011 /* NotificationManager.swift in Sources */,
+				AA000012 /* AnalyticsService.swift in Sources */,
+				AA000013 /* ATTService.swift in Sources */,
+				AA000014 /* PremiumManager.swift in Sources */,
+				AA000015 /* ReviewManager.swift in Sources */,
+				AA000016 /* FeedViewModel.swift in Sources */,
+				AA000017 /* LibraryViewModel.swift in Sources */,
+				AA000018 /* ReviewViewModel.swift in Sources */,
+				AA000019 /* HomeView.swift in Sources */,
+				AA000020 /* IdeaFeedView.swift in Sources */,
+				AA000021 /* IdeaCardView.swift in Sources */,
+				AA000022 /* LibraryView.swift in Sources */,
+				AA000023 /* ReviewView.swift in Sources */,
+				AA000024 /* CollectionView.swift in Sources */,
+				AA000025 /* PaywallView.swift in Sources */,
+				AA000026 /* OnboardingView.swift in Sources */,
+				AA000027 /* SettingsView.swift in Sources */,
+				AA000028 /* ProfileView.swift in Sources */,
+				AA000029 /* Color+Hex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AACFG0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AACFG0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AACFG0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DistillIdeas/DistillIdeas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DistillIdeas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.distillideas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AACFG0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DistillIdeas/DistillIdeas.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DistillIdeas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.distillideas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACFGLIST0 /* Build configuration list for PBXProject "DistillIdeas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACFG0001 /* Debug */,
+				AACFG0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACFGLIST1 /* Build configuration list for PBXNativeTarget "DistillIdeas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACFG0003 /* Debug */,
+				AACFG0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAPROJECT /* Project object */;
+}
