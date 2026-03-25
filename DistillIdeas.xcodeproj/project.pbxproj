@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E377BA9AA7949C2B8536B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A99215581542409DD138CC /* Assets.xcassets */; };
 		AA000001 /* DistillIdeasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100001 /* DistillIdeasApp.swift */; };
 		AA000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100002 /* ContentView.swift */; };
 		AA000003 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100003 /* Idea.swift */; };
@@ -36,11 +37,11 @@
 		AA000027 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100027 /* SettingsView.swift */; };
 		AA000028 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100028 /* ProfileView.swift */; };
 		AA000029 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100029 /* Color+Hex.swift */; };
-		AA000030 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA100030 /* Info.plist */; };
 		AA000031 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA100031 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61A99215581542409DD138CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA100001 /* DistillIdeasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistillIdeasApp.swift; sourceTree = "<group>"; };
 		AA100002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA100003 /* Idea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
@@ -87,20 +88,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AAGROUP00 /* = */ = {
+		AAGROUP00 = {
 			isa = PBXGroup;
 			children = (
 				AAGROUP01 /* DistillIdeas */,
 				AAGROUP99 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		AAGROUP99 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AAPROD001 /* DistillIdeas.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		AAGROUP01 /* DistillIdeas */ = {
@@ -116,6 +109,7 @@
 				AAGROUP04 /* ViewModels */,
 				AAGROUP05 /* Views */,
 				AAGROUP06 /* Resources */,
+				61A99215581542409DD138CC /* Assets.xcassets */,
 			);
 			path = DistillIdeas;
 			sourceTree = "<group>";
@@ -182,6 +176,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AAGROUP99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAPROD001 /* DistillIdeas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA000031 /* GoogleService-Info.plist in Resources */,
+				3E377BA9AA7949C2B8536B9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7RS696YC75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DistillIdeas/Info.plist;
@@ -440,7 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7RS696YC75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = DistillIdeas/Info.plist;

@@ -4,16 +4,29 @@
 <dict>
 	<key>CFBundleDisplayName</key>
 	<string>Distill</string>
+	<key>CFBundleExecutable</key>
+	<string>DistillIdeas</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.appfactory.distillideas</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>We use tracking to show you relevant ideas and to improve our recommendations. Your privacy is important to us.</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger</string>
+	</array>
 	<key>NSUserNotificationsUsageDescription</key>
 	<string>Distill sends daily idea reminders and review notifications to help you build a learning habit.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We use tracking to show you relevant ideas and to improve our recommendations. Your privacy is important to us.</string>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIColorName</key>
@@ -35,13 +48,6 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>ITSAppUsesNonExemptEncryption</key>
-	<false/>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>fbapi</string>
-		<string>fb-messenger</string>
 	</array>
 </dict>
 </plist>
